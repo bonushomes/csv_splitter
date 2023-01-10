@@ -1,0 +1,26 @@
+# This file tells Git to ignore certain files and directories.
+
+# Logs and databases
+*.log
+*.sqlite
+.DS_Store
+*.csv
+
+# Environment files
+.env
+
+# Dependencies
+target/
+Cargo.lock
+
+# Test artifacts
+/tests/target
+
+# User-specific files
+.vscode/
+
+# IDE files
+*.swp
+*.swo
+*.swn
+*.swi
